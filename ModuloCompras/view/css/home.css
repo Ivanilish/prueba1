@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding-top: 0;
+}
+
+body{
+
+    background:#ededed;
+
+}
+@font-face {
+    font-family: Simplifica;
+    src: url(../webfonts/SIMPLIFICA.ttf);
+}
+
+h1{
+    font-size:50px;
+    font-weight: bold;
+    color: #777777;
+
+    font-family: Simplifica;
+    text-align: center;
+
+}
+P{
+    margin-top: 15%;
+    font-size:25px;
+    font-weight: bold;
+    color: #777777;
+    font-family: Microsoft Yi Baiti;
+    text-align: center;
+}
+
+
+#contenedor{ 
+    margin: auto; 
+
+} 
+
+
+#lateral{ 
+    background-color: transparent; 
+    width: 200px; 
+    float:left; 
+
+}  
+
+
+#lateral2{ 
+
+    width: 25%;
+
+    padding-right: 0px;
+    float:left; 
+
+
+}  
+
+.ico_t{
+    padding-right: 5px;
+}
+.ico_u{
+    padding-right: 5px;
+}
+.ico_d{
+    padding-right: 6px;
+}
+.ico_a{
+    padding-right: 3px;
+}
+.ico_f{
+    padding-right: 6px;
+}
+.ico_b{
+    padding-right: 3px;
+}
+
+.texto{
+    padding-top: 51px;
+    padding-right: 50px;
+}
+
+
+.zero{
+
+    margin-top: 25%;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.logueado{
+    font-family: Microsoft Yi Baiti;
+    text-align: center;
+    position:absolute;
+    top: 2%;
+    left: 85.4%;
+    padding-left: 10px;
+        font-size: 15px;
+   
+}
+
+.ico_logueado{
+    color: #777777;
+    padding-right: 5px;
+}

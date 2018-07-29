@@ -1,0 +1,70 @@
+
+
+.navbar{
+  background-color:#ededed;
+  overflow:hidden;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+.nombreSistema{
+    color: #34383d;
+    font-size:15px;
+    font-family: Microsoft Yi Baiti;
+ 
+}
+
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding-top: 4px;
+  text-decoration:none;
+
+}
+
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#34383d;
+/*opacity:0.5;*/
+  overflow-x:hidden;
+  padding-top:5px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 20px;
+  text-decoration:none;
+  color:#fff;
+  display:block;
+  font-size:15px;
+  font-family: Microsoft Yi Baiti;
+}
+
+.side-nav a:hover, .side-nav ul:hover{
+  background: #1c1e21;
+  color:#fff;
+}
+
+#principal{
+  transition:margin-left 0.5s;
+ 
+ 
+}
+
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}
