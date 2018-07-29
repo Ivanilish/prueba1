@@ -8,10 +8,12 @@
 class Database {
 
     //Propiedades estaticas con la informacion de la conexion (DSN):
-    private static $dbName = 'modulo_compras';
-    private static $dbHost = 'localhost';
-    private static $dbUsername = 'root';
-    private static $dbUserPassword = '';
+   
+    //Propiedades estaticas con la informacion de la conexion (DSN):
+    private static $dbName = 'heroku_1be2cdbbab525da';
+    private static $dbHost = 'us-cdbr-iron-east-04.cleardb.net';
+    private static $dbUsername = 'b54b6d23824a3a';
+    private static $dbUserPassword = 'af925382';
     //Propiedad para control de la conexion:
     private static $conexion = null;
 
@@ -47,5 +49,4 @@ class Database {
     }
 
 }
-
 ?>
