@@ -24,6 +24,8 @@ $login = unserialize($_SESSION['sesion']);
         <script src="../js/jquery.dataTables.min.js"></script>
         <link rel="stylesheet" type="text/css" href="../css/registroProveedor.css">
         <link rel="stylesheet" type="text/css" href="../css/menuToggle.css">
+        
+                <script src="../js/validaciones.js"></script>
 
         <script>
             $(document).ready(function () {

@@ -18,7 +18,7 @@ $login = unserialize($_SESSION['sesion']);
         <script src="../js/jquery-2.1.4.js"></script>
         <script src="../js/bootstrap-table.js"></script>
         <link href="../css/bootstrap-table.css" rel="stylesheet">
-
+        <script src="../js/validaciones.js"></script>
         <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
         <script src="../js/jquery-3.3.1.min.js"></script>
         <script src="../js/jquery.dataTables.min.js"></script>
