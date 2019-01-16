@@ -87,7 +87,7 @@ $login = unserialize($_SESSION['sesion']);
                                   
                                 <p>BIENVENIDO</p>
                                 <div class="logueado"> <i class="ico_logueado fa fa-user" aria-hidden="true"></i> <?php echo $login->getNOMBRES_USU()." ".$login->getAPELLIDOS_USU();?></div>
-                                <h1>MODULO DE COMPRAS</h1>
+                                <h1>TIENDA UTN</h1>
 
                             </section>
                         </div>
